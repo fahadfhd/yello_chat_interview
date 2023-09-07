@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
         elevation: 1,
         leading: InkWell(
           onTap: () {
-            Navigator.pop(context);
+            // Navigator.pop(context);
           },
           child: Icon(Icons.arrow_back_ios),
           
@@ -143,7 +143,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             child: Container(
                           margin: EdgeInsets.only(right: 15* w),
                           height: 55 * h,
-                          width: 140 * w ,
+                          width: 145 * w ,
                           alignment: Alignment.center,
                           decoration: BoxDecoration(
                             color:index == provider.selectedIndex ? Colors.yellow.withOpacity(0.20) : Colors.white,
